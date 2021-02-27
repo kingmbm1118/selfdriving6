@@ -36,7 +36,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	 * NOTE: Consult particle_filter.h for more information about this method
 	 *   (and others in this file).
 	 */
-	num_particles = 1024;  // TODO: Set the number of particles
+	num_particles = 100;  // TODO: Set the number of particles
 
 	// default weight value is 1
 	weights = std::vector<double>(static_cast<unsigned long>(num_particles), 1.0);
